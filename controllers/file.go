@@ -65,6 +65,9 @@ func FileUpload(w http.ResponseWriter, r *http.Request) {
 	case "hocr":
 		out, err = client.HOCRText()
 		render.EscapeHTML = false
+	case "alto":
+		out, err = client.AltoText()
+		render.EscapeHTML = false
 	default:
 		out, err = client.Text()
 	}
