@@ -81,7 +81,7 @@ RUN cd ${WORKDIR} \
     # french (why not.)
     # && wget -O ${TESSDATA_PREFIX}/fra.traineddata \
     #    https://github.com/tesseract-ocr/tessdata/raw/${TESSERACT_DATA_VERSION}/fra.traineddata \
-    && wget --quiet -O ${TESSDATA_PREFIX}/fra.traineddata \
+    && wget --quiet -O ${TESSDATA_PREFIX}/deu.traineddata \
         https://github.com/tesseract-ocr/tessdata/raw/${TESSERACT_DATA_VERSION}/deu.traineddata \
     # move training scripts to /usr/bin/
     && mv tesseract/src/training/*.sh /usr/bin/
