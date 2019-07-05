@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/otiai10/gosseract"
+	"github.com/derfunk/gosseract"
 	"github.com/otiai10/marmoset"
 )
 
